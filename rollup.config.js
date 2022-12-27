@@ -29,6 +29,7 @@ export default [
       typescript({ tsconfig: "./tsconfig.json" }),
       postcss({
         modules: true,
+        generateScopedName: "gls-[name]"
       }),
       terser(),
     ],
