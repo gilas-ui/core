@@ -1,3 +1,7 @@
 export interface ButtonProps {
-  label: string;
+  children: string | React.ReactNode;
+  theme?: "primary";
+  size?: "sm" | "md" | "lg";
+  block?: boolean;
+  loading?: boolean;
 }

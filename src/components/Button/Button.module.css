@@ -1,3 +1,7 @@
 .Button {
-  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.Button.primary {
+  background-color: brown;
 }
