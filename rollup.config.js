@@ -28,8 +28,9 @@ export default [
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
       postcss({
-        modules: true,
-        generateScopedName: "gls-[name]"
+        modules: {
+          generateScopedName: "gls-[name]"
+        },
       }),
       terser(),
     ],
