@@ -25,5 +25,9 @@
   },
   "publishConfig": {
     "@gilas-ui:registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilas-ui/core.git"
   }
 }
